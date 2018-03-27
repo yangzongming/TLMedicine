@@ -73,5 +73,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xml-apis-ext.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xmlgraphics-commons-1.4.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xwork-core-2.3.4.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Mac/SDK/apache-tomcat-7.0.84/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/Volumes/Mac/SDK/apache-tomcat-7.0.84/lib/servlet-api.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
