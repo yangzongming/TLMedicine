@@ -372,6 +372,10 @@ public class SaleServiceImpl extends BaseServiceImpl implements SaleServiceI {
         }
         return maxNum;
     }
+	/*
+	 * 此处需要根据用户拥有仓库的权限来查询药品
+	 * 
+	 * */
 	public List<Map<String,Object>> getSaleStock(){
 	    String sql = " SELECT  t_kc_stock.stockkey,t_kc_stock.articleid,t_kc_stock.depotid,t_kc_stock.serial,t_kc_stock.num," +
 	    		" t_kc_stock.costprice,t_kc_stock.expiredate,t_xx_article.articlename,t_xx_article.articlealias,p.param_name as unitname, " +
