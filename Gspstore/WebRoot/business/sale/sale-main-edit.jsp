@@ -102,13 +102,13 @@ $(document).ready(function() {
                     <input type="hidden" name="salebillno" value="${salePage.salebillno }"/>
                   </tr>
 					<tr>
-                   	 	<td align="left">销售人</td>
+                   	 	<td align="left">操作人</td>
                     	<td align="left">
-                    		<input name="saleman" type="text" class="easyui-validatebox" maxlength="20" value="${salePage.saleman }" data-options="required:true"/>
+                    		<input name="saleman" type="text" class="easyui-validatebox" maxlength="20" value="${salePage.crtusername }" data-options="required:true"/>
                     	</td>
                    	 	<td align="left">销售客户</td>
                     	<td align="left">
-                    		<input name="customerid" type="text" class="easyui-validatebox" maxlength="20" value="${salePage.customerid }" data-options="required:true"/>
+                    		<input name="customerid" type="text" class="easyui-validatebox" maxlength="20" value="${salePage.customerpage.customername }" data-options="required:true"/>
                     	</td>
                    	 	<td align="left">销售日期</td>
                     	<td align="left">
@@ -116,7 +116,7 @@ $(document).ready(function() {
                     	</td>
                    	 	<td align="left">业务员</td>
                     	<td align="left">
-                    		<input name="accountid" type="text" class="easyui-validatebox" maxlength="20" value="${salePage.accountid }" data-options="required:true"/>
+                    		<input name="accountid" type="text" class="easyui-validatebox" maxlength="20" value="${salePage.accounterpage.accountname }" data-options="required:true"/>
                     	</td>
 					</tr>
 					<tr>

@@ -113,6 +113,12 @@
 					detail();
 				}
 			}, '-', {
+				text : '编辑销售单',
+				iconCls : 'icon-edit',
+				handler : function() {
+					edit();
+				}
+			}, '-', {
 				text : '取消选中',
 				iconCls : 'icon-undo',
 				handler : function() {
@@ -326,6 +332,7 @@
 	<div id="menu" class="easyui-menu" style="width:120px;display: none;">
 		<div onclick="add();" iconCls="icon-add">增加销售单</div>
 		<div onclick="detail();" iconCls="icon-edit">查看销售单详情</div>
+		<div onclick="edit();" iconCls="icon-edit">修改销售单</div>
 	</div>
 
 	<div id="showCdescDialog" style="display: none;overflow: hidden;width: 500px;height: 400px;">
